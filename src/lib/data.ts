@@ -1,80 +1,151 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Laura Molina",
+  location: "Buenos Aires, Argentina",
+  email: "laura.monilna@gmail.com",
+  github: "https://github.com/lauramolina",
+  linkedin: "https://www.linkedin.com/in/laura-molina-5aa395249/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
+    company: "Seven Data Rivers",
     location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    position: "Analista de Datos",
+    period: "Jun 2023 - Present",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "Soy Analista de Datos con experiencia en Business Intelligence. Mi trabajo consiste en crear informes, paneles de control y métricas utilizando Microsoft Power BI. Mi objetivo principal es proporcionar información precisa para mejorar la toma de decisiones. Utilizo herramientas como Microsoft Power BI, Excel Power Pivot y SQL Server.",
     ],
   },
-  {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
-    achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
-    ],
-  },
-  {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
-    achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
-    ],
-  },
+
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
+    institution: "Udemy",
+    location: "Udemy",
+    degree: "Python para Data Science & Machine Learning",
     period: "Jun 2021 - Jun 2025",
     achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+
+      "Aprendí a utilizar Python para la ciencia de datos y el aprendizaje automático.",
+      "Desarrollé habilidades en análisis de datos, visualización y modelado predictivo.",
+      "Realicé proyectos prácticos para aplicar los conceptos aprendidos.",
+
+
+    ],
+  },
+
+  {
+    institution: "Udemy",
+    location: "Udemy",
+    degree: "Curso Completo Power BI Desktop - Última versión de Power BI",
+    period: "Jun 2021 - Jun 2025",
+    achievements: [
+      "Aprendí a utilizar Power BI para la visualización y análisis de datos.",
+      "Desarrollé habilidades en la creación de informes interactivos y paneles de control.",
+      "Realicé proyectos prácticos para aplicar los conceptos aprendidos.",
+
+    ],
+  },
+
+  {
+    institution: "Udemy",
+    location: "Udemy",
+    degree: "Guía definitiva de DAX para Power Bi y Power Pivot",
+    period: "Jun 2021 - Jun 2025",
+    achievements: [
+      "Aprendí a utilizar DAX para el análisis de datos en Power BI y Power Pivot.",
+      "Desarrollé habilidades en la creación de medidas y cálculos avanzados.",
+      "Realicé proyectos prácticos para aplicar los conceptos aprendidos.",
+
+    ],
+  },
+  {
+    institution: "Udemy",
+    location: "Udemy",
+    degree: "2023 Gestión Ágil de Proyectos con Scrum: Curso AGILE",
+    period: "Jun 2021 - Jun 2025",
+    achievements: [
+      "Aprendí a gestionar proyectos utilizando la metodología ágil Scrum.",
+      "Desarrollé habilidades en la planificación, ejecución y seguimiento de proyectos.",
+      "Realicé proyectos prácticos para aplicar los conceptos aprendidos.",
+
+    ],
+  },
+  {
+    institution: "Udemy",
+    location: "Udemy",
+    degree: "Curso SQL Server Nivel Básico - Avanzado",
+    period: "Jun 2021 - Jun 2025",
+    achievements: [
+      "Aprendí a utilizar SQL Server para la gestión y análisis de datos.",
+      "Desarrollé habilidades en la creación de bases de datos, consultas y procedimientos almacenados.",
+      "Realicé proyectos prácticos para aplicar los conceptos aprendidos.",
+
+    ],
+  },
+  {
+    institution: "Certiprof",
+    location: "Certiprof",
+    degree: "Certificado Profesional de la Fundación Scrum - SFPC™ (v2020)",
+    period: "Jun 2021 - Jun 2025",
+    achievements: [
+
+      "Certificación profesional en la metodología Scrum.",
+      "Desarrollé habilidades en la gestión de proyectos ágiles.",
+      "Participé en proyectos prácticos para aplicar los conceptos aprendidos.",
+
+    ],
+  },
+  {
+    institution: "Noble Work Foundation",
+    location: "Noble Work Foundation",
+    degree: "Análisis en Microsoft Excel: Power Pivot, Dax y Power Query",
+    period: "Jun 2021 - Jun 2025",
+    achievements: [
+      "Aprendí a utilizar Microsoft Excel para el análisis de datos.",
+      "Desarrollé habilidades en Power Pivot, DAX y Power Query.",
+      "Realicé proyectos prácticos para aplicar los conceptos aprendidos.",
+
+    ],
+  },
+  {
+    institution: "Certiprof",
+    location: "Certiprof",
+    degree: "Certificación profesional de Business Intelligence Foundation - BIFPC™",
+    period: "Jun 2021 - Jun 2025",
+    achievements: [
+      "Certificación profesional en Business Intelligence.",
+      "Desarrollé habilidades en la gestión y análisis de datos.",
+      "Participé en proyectos prácticos para aplicar los conceptos aprendidos.",
+
+    ],
+  },
+  {
+    institution: "Certiprof",
+    location: "Certiprof",
+    degree: "Curso de Power BI - Análisis de Datos y Business Intelligence",
+    period: "Jun 2021 - Jun 2025",
+    achievements: [
+      "Aprendí a utilizar Power BI para el análisis de datos y Business Intelligence.",
+      "Desarrollé habilidades en la creación de informes y paneles de control.",
+      "Realicé proyectos prácticos para aplicar los conceptos aprendidos.",
+
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
+    "Transact SQL",
+    "DAX",
     "Python",
-    "C++",
-    "Java",
-    "Solidity",
   ],
   frontendDevelopment: [
+    "React",
     "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
     "Tailwind CSS",
-    "HTML",
-    "CSS",
+    "Chakra UI",
+    "Framer Motion",
   ],
   backendDevelopment: ["Nodejs", "Expressjs"],
   databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
@@ -92,25 +163,22 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "Analisis de Ventas",
+    github: "https://github.com/",
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+      "Análisis de ventas utilizando Power BI y SQL Server.",
+      "El objetivo del proyecto es analizar las ventas de una empresa y proporcionar información valiosa para la toma de decisiones.",
+      "Se utiliza Power BI para crear informes interactivos y visualizaciones de datos, y SQL Server para almacenar y gestionar los datos.",
     ],
   },
   {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
+    title: "Analisis de Stock Textil",
+    github: "https://github.com/",
     description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+      "Análisis de stock textil utilizando Power BI y SQL Server.",
+      "El objetivo del proyecto es analizar el stock de una empresa textil y proporcionar información valiosa para la toma de decisiones.",
+      "Se utiliza Power BI para crear informes interactivos y visualizaciones de datos, y SQL Server para almacenar y gestionar los datos.",
+
     ],
   },
 ];

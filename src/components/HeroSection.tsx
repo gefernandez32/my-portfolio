@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Analista de Datos 👨‍💻
             </motion.p>
 
             <motion.div
@@ -122,15 +122,10 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              🚀 Analista de Datos especializada en Business Intelligence, con una combinación de pensamiento analítico, visión de negocio y habilidades técnicas orientadas a resultados. Me apasiona transformar datos en información clara, visual y accionable, ayudando a equipos y organizaciones a tomar mejores decisiones.
+              Cuento con experiencia trabajando como freelancer con clientes de distintas industrias, adaptándome rápidamente a nuevos desafíos y herramientas. Domino Power BI, SQL y Python, con foco en el diseño de dashboards eficientes, modelado de datos, automatización de procesos y creación de KPIs relevantes para el negocio.
+              Me destaco por entender el contexto detrás de los datos, conectar con las necesidades del usuario y construir soluciones que combinan precisión técnica con una presentación clara y efectiva.
+              Busco constantemente seguir aprendiendo, crecer profesionalmente y aportar valor desde el primer día, ya sea trabajando de forma autónoma o como parte de un equipo interdisciplinario.
             </p>
           </div>
         </MotionWrapper>
