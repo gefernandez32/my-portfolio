@@ -138,6 +138,7 @@ export const skills = {
     "Transact SQL",
     "DAX",
     "Python",
+    "R"
   ],
   frontendDevelopment: [
     "React",
@@ -147,16 +148,15 @@ export const skills = {
     "Framer Motion",
   ],
   backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
+  databaseAndStorage: ["SQL Server", "MySQL"],
   cloudAndDevOps: ["AWS"],
   toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+    "Excel",
+    "Power Query",
+    "Power BI",
+    "Power Automate",
+    "Power Apps",
+    "Microsoft 365",
   ],
 };
 
