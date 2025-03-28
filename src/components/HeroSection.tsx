@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Analista de Datos 👨‍💻
+              Data Analyst - Business Intelligence 👨‍💻
             </motion.p>
 
             <motion.div
