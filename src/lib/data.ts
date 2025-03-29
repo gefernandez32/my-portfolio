@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: "Laura Molina",
   location: "Buenos Aires, Argentina",
-  email: "smcc.4@hotmail.com ",
-  github: "https://github.com/lauramolina",
+  email: "molinalaura.bi@gmail.com",
+  github: "https://github.com/Laura-Molina",
   linkedin: "https://www.linkedin.com/in/laura-molina-5aa395249/",
 };
 
@@ -162,23 +162,26 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Analisis de Ventas",
-    github: "https://github.com/",
+    title: "Seguridad Vial y Flujo Vehicular por Radares",
     description: [
-      "Análisis de ventas utilizando Power BI y SQL Server.",
-      "El objetivo del proyecto es analizar las ventas de una empresa y proporcionar información valiosa para la toma de decisiones.",
-      "Se utiliza Power BI para crear informes interactivos y visualizaciones de datos, y SQL Server para almacenar y gestionar los datos.",
-    ],
-  },
-  {
-    title: "Analisis de Stock Textil",
-    github: "https://github.com/",
-    description: [
-      "Análisis de stock textil utilizando Power BI y SQL Server.",
-      "El objetivo del proyecto es analizar el stock de una empresa textil y proporcionar información valiosa para la toma de decisiones.",
-      "Se utiliza Power BI para crear informes interactivos y visualizaciones de datos, y SQL Server para almacenar y gestionar los datos.",
+      "Este tablero analiza la siniestralidad vial y el flujo vehicular de AUSA",
+      "Ambos conjuntos de datos son extraidos de la pagina de datos de la ciudad de Buenos Aires.",
 
     ],
+    image: "/public/ausa.png",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiY2I2NjdmN2MtZTZiZi00NzllLWE0YjUtNjYxNjFhOGQwNWJhIiwidCI6ImQxNDIxOTAxLWMxNzMtNGFiNS1hNGQ3LTlkYjE2NDNlNjFkMyIsImMiOjR9&pageName=c09ac4f179aac250c186",
+    github: "#",
+  },
+  {
+    title: "Seguridad Vial y Flujo Vehicular por Radares",
+    description: [
+      "Este tablero contiene las ventas y los beneficios de una tienda de retail en Estados Unidos.",
+      "Se busca analizar el comportamiento de las ventas en los diferentes estados, segmentos, tipos de clientes y categorías de productos.",
+
+    ],
+    image: "/public/superstore.png",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiYzhhNjM3ZTYtYjlhNi00MmFiLTk2ZDEtYTY1MDIyZGU3MWRhIiwidCI6ImQxNDIxOTAxLWMxNzMtNGFiNS1hNGQ3LTlkYjE2NDNlNjFkMyIsImMiOjR9&pageName=7dd8be10082b092ce60c",
+    github: "#",
   },
 ];
 

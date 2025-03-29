@@ -46,8 +46,21 @@ export default function ProjectsSection() {
                       </motion.li>
                     ))}
                   </ul>
+
+                  {project.image && project.link && (
+                    <div className="mt-6">
+                      <a href={project.link} target="_blank" rel="noopener noreferrer">
+                        <img
+                          src={project.image}
+                          alt={project.title}
+                          className="rounded-xl w-full border border-muted shadow hover:scale-105 transition-transform duration-300"
+                        />
+                      </a>
+                    </div>
+                  )}
+
                 </CardContent>
-                <CardFooter className="flex justify-center md:justify-start items-center border-t border-border/30 bg-gradient-to-r from-purple-500/5 to-pink-500/5">
+                {/* <CardFooter className="flex justify-center md:justify-start items-center border-t border-border/30 bg-gradient-to-r from-purple-500/5 to-pink-500/5">
                   <motion.a
                     href={project.github}
                     target="_blank"
@@ -59,7 +72,7 @@ export default function ProjectsSection() {
                     <Github className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300" />
                     View on GitHub 🔗
                   </motion.a>
-                </CardFooter>
+                </CardFooter> */}
               </GlassCard>
             </MotionWrapper>
           ))}
