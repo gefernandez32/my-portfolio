@@ -168,7 +168,7 @@ export const projects = [
       "Ambos conjuntos de datos son extraidos de la pagina de datos de la ciudad de Buenos Aires.",
 
     ],
-    image: "/public/ausa.png",
+    image: "ausa.png",
     link: "https://app.powerbi.com/view?r=eyJrIjoiY2I2NjdmN2MtZTZiZi00NzllLWE0YjUtNjYxNjFhOGQwNWJhIiwidCI6ImQxNDIxOTAxLWMxNzMtNGFiNS1hNGQ3LTlkYjE2NDNlNjFkMyIsImMiOjR9&pageName=c09ac4f179aac250c186",
     github: "#",
   },
@@ -179,7 +179,7 @@ export const projects = [
       "Se busca analizar el comportamiento de las ventas en los diferentes estados, segmentos, tipos de clientes y categorías de productos.",
 
     ],
-    image: "/public/superstore.png",
+    image: "superstore.png",
     link: "https://app.powerbi.com/view?r=eyJrIjoiYzhhNjM3ZTYtYjlhNi00MmFiLTk2ZDEtYTY1MDIyZGU3MWRhIiwidCI6ImQxNDIxOTAxLWMxNzMtNGFiNS1hNGQ3LTlkYjE2NDNlNjFkMyIsImMiOjR9&pageName=7dd8be10082b092ce60c",
     github: "#",
   },
