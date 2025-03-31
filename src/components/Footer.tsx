@@ -17,16 +17,16 @@ export default function Footer() {
             whileHover={{ scale: 1.01 }}
           >
             <p className="font-semibold text-purple-500">
-              🎤 ¿Buscás una profesional en BI y visualización de datos?
+              🔎 ¿Buscás una profesional en BI y Análisis de Datos?
             </p>
             <p>
-              <strong>Laura Molina</strong> está abierta a nuevas oportunidades.{" "}
+              <strong>¡Hola!</strong> Gracias por visitar mi website. Estoy disponible para colaborar en proyectos relacionados con Business Intelligence, Análisis de Datos y más. Si estás buscando a alguien con experiencia para sumar valor a tu equipo o proyecto, no dudes en{" "}
               <a
                 href="mailto:molinalaura.bi@gmail.com"
                 className="text-purple-500 underline"
               >
-                Contactala aquí
-              </a>
+                contactarme aquí
+              </a>.
             </p>
           </motion.div>
         </motion.div>
@@ -44,19 +44,8 @@ export default function Footer() {
           >
             &copy; {new Date().getFullYear()} {personalInfo.name}. All rights reserved. ✨
           </motion.p>
-          <motion.p
-            className="text-sm text-muted-foreground mt-2 md:mt-0 text-center md:text-left"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
-            viewport={{ once: true }}
-            whileHover={{ scale: 1.01 }}
-          >
-
-          </motion.p>
         </motion.div>
       </div>
     </footer>
   );
 }
-
