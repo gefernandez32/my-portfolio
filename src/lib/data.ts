@@ -173,7 +173,7 @@ export const projects = [
     github: "#",
   },
   {
-    title: "Seguridad Vial y Flujo Vehicular por Radares",
+    title: "Super Store",
     description: [
       "Este tablero contiene las ventas y los beneficios de una tienda de retail en Estados Unidos.",
       "Se busca analizar el comportamiento de las ventas en los diferentes estados, segmentos, tipos de clientes y categorías de productos.",
