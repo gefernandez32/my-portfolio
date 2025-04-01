@@ -74,7 +74,7 @@ export const education = [
   {
     institution: "Udemy",
     location: "Udemy",
-    degree: "Curso SQL Server Nivel Básico - Avanzado",
+    degree: "Curso Práctico SQL Server: De Principiante a Experto",
     period: "Mar 2023",
     achievements: [
       "Aprendí a utilizar SQL Server para la gestión y análisis de datos.",
@@ -99,7 +99,7 @@ export const education = [
   {
     institution: "Noble Work Foundation",
     location: "Noble Work Foundation",
-    degree: "Análisis en Microsoft Excel: Power Pivot, Dax y Power Query",
+    degree: "Análisis en Microsoft Excel: Power Pivot, DAX y Power Query",
     period: "Ene 2023",
     achievements: [
       "Aprendí a utilizar Microsoft Excel para el análisis de datos.",
@@ -138,7 +138,8 @@ export const skills = {
     "Transact SQL",
     "DAX",
     "Python",
-    "R"
+    "R",
+    "M"
   ],
   frontendDevelopment: [
     "React",
