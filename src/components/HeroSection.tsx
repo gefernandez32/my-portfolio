@@ -1,5 +1,10 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
+import { Linkedin } from 'lucide-react';
+import { Github } from 'lucide-react';
+import { Mail } from 'lucide-react';
+import { MapPin } from 'lucide-react';
+
+
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -96,6 +101,15 @@ export default function HeroSection() {
               >
                 <Linkedin className="h-4 w-4 mr-2" />
                 🔗 LinkedIn
+              </motion.a>
+              <motion.a
+                href="/CV_Laura_Molina.pdf"  // Cambia esto a la URL de tu CV
+                target="_blank"  // Abre el enlace en una nueva pestaña
+                className="flex items-center text-sm text-purple-500 hover:text-purple-700 transition-colors mt-4"
+                variants={childVariants}
+                whileHover={{ scale: 1.05, color: "#4b5563" }}
+              >
+                📄 Descarga mi CV
               </motion.a>
             </motion.div>
           </div>
