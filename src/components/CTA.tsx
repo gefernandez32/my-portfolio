@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 export default function CTA() {
   return (
     <motion.div
+      id="contactame"
       className="mt-16 px-6 py-12 bg-gradient-to-r from-purple-500/20 to-purple-500/10 rounded-xl text-center"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
