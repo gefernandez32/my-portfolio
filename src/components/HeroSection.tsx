@@ -1,8 +1,6 @@
 import { personalInfo } from "@/lib/data";
-import { Linkedin } from 'lucide-react';
-import { Github } from 'lucide-react';
-import { Mail } from 'lucide-react';
-import { MapPin } from 'lucide-react';
+
+import { Linkedin, Github, Mail, MapPin, FileText } from 'lucide-react';
 
 
 import { motion } from "framer-motion";
@@ -66,7 +64,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
+                {personalInfo.location}
               </motion.div>
 
               <motion.a
@@ -76,10 +74,10 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Mail className="h-4 w-4 mr-2" />
-                ✉️ {personalInfo.email}
+                {personalInfo.email}
               </motion.a>
 
-              <motion.a
+              {/* <motion.a
                 href={personalInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -88,8 +86,8 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Github className="h-4 w-4 mr-2" />
-                🌟 GitHub
-              </motion.a>
+                GitHub
+              </motion.a> */}
 
               <motion.a
                 href={personalInfo.linkedin}
@@ -100,16 +98,17 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Linkedin className="h-4 w-4 mr-2" />
-                🔗 LinkedIn
+                LinkedIn
               </motion.a>
               <motion.a
                 href="/CV_Laura_Molina.pdf"  // Cambia esto a la URL de tu CV
                 target="_blank"  // Abre el enlace en una nueva pestaña
-                className="flex items-center text-sm text-purple-500 hover:text-purple-700 transition-colors mt-4"
+                className="flex items-center text-sm text-purple-500 hover:text-purple-700 transition-colors"
                 variants={childVariants}
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
-                📄 Descarga mi CV
+                <FileText className="h-4 w-4 mr-2" />
+                Descarga mi CV
               </motion.a>
             </motion.div>
           </div>
