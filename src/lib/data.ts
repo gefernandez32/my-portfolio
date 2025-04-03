@@ -181,7 +181,7 @@ export const projects = [
 
     ],
     image: "superstore.png",
-    link: "https://app.powerbi.com/view?r=eyJrIjoiYzhhNjM3ZTYtYjlhNi00MmFiLTk2ZDEtYTY1MDIyZGU3MWRhIiwidCI6ImQxNDIxOTAxLWMxNzMtNGFiNS1hNGQ3LTlkYjE2NDNlNjFkMyIsImMiOjR9&pageName=7dd8be10082b092ce60c",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiNmNlN2UzNGMtNzU3Yi00M2NlLTgxMWQtZDFjNWRlYWI5M2NhIiwidCI6ImQxNDIxOTAxLWMxNzMtNGFiNS1hNGQ3LTlkYjE2NDNlNjFkMyIsImMiOjR9",
     github: "#",
   },
 ];
