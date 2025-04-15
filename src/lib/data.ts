@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Laura Molina",
   location: "Buenos Aires, Argentina",
   email: "molinalaura.bi@gmail.com",
-  github: "https://github.com/Laura-Molina",
+  github: "https://github.com/Laura-Molina?tab=repositories",
   linkedin: "https://www.linkedin.com/in/laura-molina-5aa395249/",
 };
 
@@ -163,10 +163,9 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Seguridad Vial y Flujo Vehicular por Radares",
+    title: "🚗 Análisis de Flujo Vehicular y Seguridad Vial en Autopistas AUSA",
     description: [
-      "Este tablero analiza la siniestralidad vial y el flujo vehicular de AUSA",
-      "Ambos conjuntos de datos son extraidos de la pagina de datos de la ciudad de Buenos Aires.",
+      "Este proyecto analiza datos de siniestralidad y flujo vehicular en las autopistas de la Ciudad Autónoma de Buenos Aires (AUSA), con el objetivo de entender si existe relación entre el tráfico vehicular, las condiciones climáticas y los accidentes de tránsito."
 
     ],
     image: "ausa.png",
@@ -174,14 +173,24 @@ export const projects = [
     github: "#",
   },
   {
-    title: "Super Store",
+    title: "🛒 Análisis de Datos para Hipermercado",
     description: [
-      "Este tablero contiene las ventas y los beneficios de una tienda de retail en Estados Unidos.",
-      "Se busca analizar el comportamiento de las ventas en los diferentes estados, segmentos, tipos de clientes y categorías de productos.",
+      "Este proyecto consiste en el análisis de datos de un hipermercado con el objetivo de identificar patrones de ventas, productos rentables, comportamiento de clientes y rendimiento por segmento.",
+      "Se utilizó Python para el tratamiento y análisis exploratorio de datos, y Power BI para el modelado y la visualización interactiva.",
 
     ],
     image: "superstore.png",
     link: "https://app.powerbi.com/view?r=eyJrIjoiNmNlN2UzNGMtNzU3Yi00M2NlLTgxMWQtZDFjNWRlYWI5M2NhIiwidCI6ImQxNDIxOTAxLWMxNzMtNGFiNS1hNGQ3LTlkYjE2NDNlNjFkMyIsImMiOjR9",
+    github: "#",
+  },
+  {
+    title: "📝 Análisis de Tickets de Atención al Cliente",
+    description: [
+      "Este proyecto presenta un análisis exploratorio y visual de un conjunto de datos de tickets de atención al cliente, obtenido de Kaggle.",
+      "El objetivo es entender mejor el comportamiento del sistema de atención según prioridad del ticket, canal de contacto y turno de recepción.",
+    ],
+    image: "tickets.png",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiNDFhODkxZGMtZjNlZC00YTRmLWFhNDctNTBmZjkzMDE4N2Y3IiwidCI6ImQxNDIxOTAxLWMxNzMtNGFiNS1hNGQ3LTlkYjE2NDNlNjFkMyIsImMiOjR9",
     github: "#",
   },
 ];
